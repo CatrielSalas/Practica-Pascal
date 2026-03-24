@@ -12,7 +12,9 @@ begin
 
       suma:=(num1+num2);
       writeln('Su suma es: ',suma:2:0);
+      readln(suma);
       resta:=(num1-num2);
       writeln('Su resta es: ',resta:2:0);
+        readln(resta);
       readkey;
 end.

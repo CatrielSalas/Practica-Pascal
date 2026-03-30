@@ -8,6 +8,7 @@ uses crt;
 var milla,km,pie,pulgada,cmpie,cmpulgada:real;
 
 begin
+      clrscr;
       km:= 1.609344;
       cmpie:= 30.48;
       cmpulgada:= 2.54;

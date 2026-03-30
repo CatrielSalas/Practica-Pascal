@@ -7,6 +7,7 @@ uses crt;
 var  a,b, aux: integer;
 
 begin
+        clrscr;
         writeln('Ingrese valor a'); readln(a);
         writeln('Ingrese valor b'); readln(b);
 

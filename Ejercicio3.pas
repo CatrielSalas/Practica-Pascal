@@ -7,6 +7,7 @@ uses crt;
 var suma, resta, num1,num2: real;
 
 begin
+      clrscr;
       writeln('Numero1'); readln (num1);
       writeln('Numero2'); readln (num2);
 

@@ -9,7 +9,7 @@ begin
         writeln('Ingrese la altura (b): '); readln(b);
 
 
-                h:= (sqrt a*a + b*b );
+                h:= (sqrt (a*a + b*b ) );
                 p:=(a+b+h);
 
         writeln('Su perimetro es: ',p:0:2);

@@ -5,7 +5,8 @@ uses crt;
 var num,res:integer;
 
 begin
-    writeln('Ingresa un numero'); readln(num);
+        clrscr;
+        writeln('Ingresa un numero'); readln(num);
         res:= (num*num*num);
         writeln('Su resultado:',res);
         readkey;

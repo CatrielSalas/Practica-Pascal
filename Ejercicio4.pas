@@ -5,6 +5,7 @@ uses crt;
 var p,a,b,h:real;
 
 begin
+        clrscr;
         writeln('Ingrese la base (a):'); readln(a);
         writeln('Ingrese la altura (b): '); readln(b);
 

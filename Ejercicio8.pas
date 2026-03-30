@@ -5,10 +5,22 @@ program producto;
 
 uses crt;
 
-var prod1,prod2,prod3:real;
+var     p1,p2,p3:real;
+        total, subtotal,iva :real;
 
 begin
+        clrscr;
+        writeln('Ingrese Precio Producto 1'); readln(p1);
+        writeln('Ingrese Precio Producto 2'); readln(p2);
+        writeln('Ingrese Precio Producto 3'); readln(p3);
 
+        subtotal:= p1+p2+p3;
+        iva:= subtotal * 0.21;
+        total:= subtotal + iva;
+
+        writeln('Pagaras en total: $ ', total:0:2);
+        writeln('Iva Pagado: $ ',iva:0:2);
+        readkey;
 
 
 end.

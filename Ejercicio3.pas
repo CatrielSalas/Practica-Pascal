@@ -1,6 +1,6 @@
 //Obtener suma y resta de dos numeros ingresados
 
-program sumaresta;
+program ejercicio03;
 
 uses crt;
 

@@ -1,5 +1,5 @@
 //Calcular el promedio de tres n£meros ingresados.
-program promedio;
+program ejercicio01;
 uses crt;
 var num1,num2,num3:integer; prom:real;
 

@@ -1,5 +1,5 @@
  //Calcular el  rea de una circunferencia, dada la medida de su radio
-program circuferencia;
+program ejercicio02;
 
 uses crt;
 

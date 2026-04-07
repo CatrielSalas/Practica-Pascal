@@ -1,6 +1,6 @@
 //Para un numero x dado, calcular x3.
 
-program calculo;
+program ejercicio05;
 uses crt;
 var num,res:integer;
 

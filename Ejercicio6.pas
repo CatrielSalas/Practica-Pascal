@@ -1,6 +1,6 @@
 //Intercambiar los valores de 2 variables num‚ricas.
 
-program intercambio;
+program ejercicio06;
 
 uses crt;
 

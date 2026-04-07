@@ -1,6 +1,6 @@
 //Calcular el per¡metro de un tri ngulo rect ngulo, dadas la base y la altura
 
-program perimetro;
+program ejercicio04;
 uses crt;
 var p,a,b,h:real;
 

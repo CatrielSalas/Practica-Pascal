@@ -1,7 +1,7 @@
 // Algoritmo que convierta las longitudes del sistema ingl‚s al sistema m‚trico decimal.
 // Tener en cuenta que 1 milla = 1.609344 km 1 pie = 30.48 cm - 1 pulgada = 2.54 cm
 
-program longitudes;
+program ejercicio07;
 
 uses crt;
 

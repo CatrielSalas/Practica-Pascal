@@ -1,11 +1,12 @@
  //Calcular el  rea de una circunferencia, dada la medida de su radio
-program circuferencia;
+program ejercicio02;
 
 uses crt;
 
 var area,radio:real;
 
 begin
+        clrscr;
         writeln('Ingrese su radio'); readln(radio);
 
         area:=( 3.14 * radio * radio);

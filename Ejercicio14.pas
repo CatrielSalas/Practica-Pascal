@@ -7,12 +7,12 @@ program ejercicio014;
 
 uses crt;
 
-var sueldoinicial,ht,pht,sueldo,ganancia:integer;
+var sueldoinicial,ht,pht,sueldo,ganancia:real;
     nombre:string;
 
 begin
         clrscr;
-      sueldoinicial:= 1.000.000;
+      sueldoinicial:=1000000;
       ganancia:=3000;
 
       writeln ('Ingrese su nombre '); readln(nombre);
@@ -22,9 +22,15 @@ begin
 
       begin
         sueldo:= sueldoinicial+ganancia;
-        writeln('Su sueldo neto es de: ',sueldo:0:2);
-      end;
+        writeln('Su sueldo neto es de: ',sueldo:0:0);
+        readkey;
+      end
 
+      else
+        begin
+        writeln('Su sueldo es: ', sueldoinicial:0:0);
+        readkey;
+      end;
 
 end.
 

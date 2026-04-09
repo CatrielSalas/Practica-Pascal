@@ -7,28 +7,26 @@ program ejercicio014;
 
 uses crt;
 
-var sueldo,sueldoht,ht,ganancia:real;
+var sueldo,sueldoht,ht,ganancia:integer;
     nombre:string;
 
 begin
-      sueldoht:=10000;
+      clrscr;
+      sueldoht:=1000;
       ganancia:=3000;
 
-      clrscr;
-      writeln ('Ingrese su nombre '); readln(nombre);
-      writeln('Ingrese sus horas trabajadas y le diremos cuanto cobrara '); readln(ht);
+      writeln ('Ingrese su nombre ');
+      readln(nombre);
+      writeln('Ingrese sus horas trabajadas y le diremos cuanto cobrara ');
+      readln(ht);
 
       if ht > 160 then
 
       begin
-        sueldo:= sueldoht + ganancia;
-
-        writeln('Su sueldo neto es de: ',sueldo)
+        sueldo:= sueldoht+ganancia;
+        writeln('Su sueldo neto es de: ',sueldo);
       end
-
       else
-      begin
         writeln('Su sueldo es: ', sueldoht);
-      end;
-        readln;
+        readkey;
 end.

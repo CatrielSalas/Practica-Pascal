@@ -23,12 +23,12 @@ begin
       begin
         sueldo:= sueldoht + ganancia;
 
-        writeln('Su sueldo neto es de: ',sueldo)
+        writeln('Su sueldo neto es de: ',sueldo:0:0)
       end
 
       else
       begin
-        writeln('Su sueldo es: ', sueldoht);
+        writeln('Su sueldo es: ', sueldoht:0:0);
       end;
         readln;
 end.

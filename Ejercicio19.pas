@@ -2,20 +2,28 @@
 
 program ejercicio019;
 
-uses crt,SysUtils;
+uses crt;
 
-var nombre1,nombre2:string;
-
+var
+  nombre1, nombre2, aux: string;
 
 begin
-        clrscr;
-        writeln('Ingresa un nombre: '); readln(nombre1);
-        writeln('Ingrese un nombre: '); readln(nombre2);
+  clrscr;
+
+  writeln('Ingresa un nombre: '); readln(nombre1);
+
+  writeln('Ingresa otro nombre: '); readln(nombre2);
 
         if lowercase(nombre1) > lowercase(nombre2) then
-        writeln('Alfabeticamente: ',nombre1, nombre2)
-        else
-        writeln('Alfabeticamente: ',nombre2, nombre1);
+
+        begin
+        aux := nombre1;
+        nombre1 := nombre2;
+        nombre2 := aux;
         end;
-        readkey;
+
+        writeln('Orden alfabetico: ', nombre1, ', ', nombre2);
+
+  readkey;
 end.
+

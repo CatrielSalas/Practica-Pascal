@@ -15,7 +15,6 @@ begin
 
   sueldobase := 60000;
   preciounidad := 1000;
-  totalv:= 0.10;
 
   writeln('Cuantos seguros vendio: ');
   readln(vendio);

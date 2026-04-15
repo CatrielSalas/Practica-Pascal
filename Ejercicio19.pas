@@ -14,7 +14,7 @@ begin
 
   writeln('Ingresa otro nombre: '); readln(nombre2);
 
-        if lowercase(nombre1) > lowercase(nombre2) then
+        if (nombre1) > (nombre2) then
 
         begin
         aux := nombre1;

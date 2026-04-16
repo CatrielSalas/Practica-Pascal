@@ -16,25 +16,59 @@ begin
                 write('Ingrese el anio: '); readln(anio);
 
                 write('El dia ', dia, ' de ');
-                case mes of
-                1: write('Enero');
-                2: write('Febrero');
-                3: write('Marzo');
-                4: write('Abril');
-                5: write('Mayo');
-                6: write('Junio');
-                7: write('Julio');
-                8: write('Agosto');
-                9: write('Septiembre');
-                10: write('Octubre');
-                11: write('Noviembre');
-                12: write('Diciembre');
-                else
-                writeln('Mes invalido');
-                end;
-
-          writeln(' de ', anio, '.');
-
-
-        readkey;
+                        case mes of
+                        1:
+                        begin
+                           write('Enero');
+                        end;
+                        2:
+                        begin
+                           write('Febrero');
+                        end;
+                        3:
+                        begin
+                           write('Marzo');
+                        end;
+                        4:
+                        begin
+                           write('Abril');
+                        end;
+                        5:
+                        begin
+                        write('Mayo');
+                        end;
+                        6:
+                        begin
+                        write('Junio');
+                        end;
+                        7:
+                        begin
+                        write('Julio');
+                        end;
+                        8:
+                        begin
+                        write('Agosto');
+                        end;
+                        9:
+                        begin
+                        write('Septiembre');
+                        end;
+                        10:
+                        begin
+                        write('Octubre');
+                        end;
+                        11:
+                        begin
+                        write('Noviembre');
+                        end;
+                        12:
+                        begin
+                        write('Diciembre');
+                        end;
+                        else
+                        writeln('Mes invalido ');
+                        end;
+                        writeln(' de ', anio);
+                        readkey;
 end.
+
